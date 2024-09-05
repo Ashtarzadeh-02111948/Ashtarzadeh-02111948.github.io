@@ -1,21 +1,25 @@
 body {
     background-color: powderblue;
+    font-family: 'Comfortaa';
   }
 
   h1 {
+    
     color: black;
+    font-size: 100px;
+
   }
-  
 
   .photome {
     width: 30%;
   }
-  
+
   #aboutmeinfo {
+    font-family: 'Comfortaa';
     background-color: #184371;
-    padding: 30px;
+    padding: 90px;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     color: white;
   }
 
