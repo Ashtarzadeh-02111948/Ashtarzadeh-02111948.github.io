@@ -4,15 +4,19 @@ body {
   }
 
   h1 {
-    
     color: black;
     font-size: 100px;
+  }
 
+  h2 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
   }
 
   .photome {
     width: 30%;
   }
+
 
   #aboutmeinfo {
     font-family: 'Comfortaa';
