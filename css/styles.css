@@ -7,13 +7,17 @@ body {
   }
 
   p {
-    color: red;
+    color: black;
   }
   
   .links {
     background-color: rgb(193, 91, 193);
     color: white;
     border: 2px solid black;
-    margin: 20px;
+    margin: 40px;
     padding: 20px;
+  }
+
+  img {
+    width: 100%;
   }
