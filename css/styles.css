@@ -6,18 +6,9 @@ body {
     color: black;
   }
   
-  .links {
-    background-color: rgb(193, 91, 193);
-    color: white;
-    border: 2px solid black;
-    margin: 50px;
-    margin-left: 1px;
-    margin-right: 1px;
-    padding: 20px;
-  }
 
   .photome {
-    width: 40%;
+    width: 30%;
   }
   
   #aboutmeinfo {
@@ -26,5 +17,16 @@ body {
     text-align: center;
     font-size: 22px;
     color: white;
+  }
+
+  .links {
+    background-color: rgb(193, 91, 193);
+    color: white;
+    border: 2px solid black;
+    margin: 50px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 20px;
+    font-size: 30px;
   }
 
