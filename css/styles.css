@@ -27,14 +27,21 @@ body {
     background-color: #ddd;
     color: black;
   }
-.navbar a.active {
+  .navbar a.active {
   background-color: #a6285d;
   color: white;
 }
 
+#validatecss {
+    padding: 50px;
+    text-align: right;
+}
+
+  /* Header for my name at top of page. Using negative value for margin top to adjust position of header higher*/
   h1 {
+    margin-top: -100px;
     color: black;
-    font-size: 100px;
+    font-size: 90px;
   }
 
   /* Will style the 'About me' and 'My Links' headers */
