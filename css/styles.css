@@ -3,10 +3,6 @@ body {
   }
 
   h1 {
-    color: blue;
-  }
-
-  p {
     color: black;
   }
   
@@ -14,10 +10,21 @@ body {
     background-color: rgb(193, 91, 193);
     color: white;
     border: 2px solid black;
-    margin: 40px;
+    margin: 50px;
+    margin-left: 1px;
+    margin-right: 1px;
     padding: 20px;
   }
 
-  img {
+  .photome {
     width: 40%;
   }
+  
+  #aboutmeinfo {
+    background-color: #184371;
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+  }
+
