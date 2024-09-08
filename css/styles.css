@@ -1,7 +1,8 @@
 /* Coloring background of page and setting the font for all text on the page */
 body {
-    background-color: #A0C6FC;
+    background-color: #87ade2;
     font-family: 'Comfortaa';
+    padding-bottom: 400px;
   }
 
   /* Style for the top navigation bar on the site */
@@ -52,13 +53,14 @@ body {
 
   /* Formatting my photo */
   .photome {
+    bottom: 40px;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
   }
 
   /* Using the 'aboutmeinfo' id to ony style the about me paragraph */
-  #aboutmeinfo {
+  .aboutme {
     font-family: 'Comfortaa';
     background-color: #184371;
     padding: 90px;
@@ -69,7 +71,21 @@ body {
 
   /* Using the 'links' class to style my links section */
   .links {
-    background-color: rgb(193, 91, 193);
+    background-color: #a6285d;
+    color: white;
+    border: 2px solid black;
+    margin: 50px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .contactme {
+    position: absolute;
+    bottom: -1500px;
+    width: 93%;
+    background-color: #184371;
     color: white;
     border: 2px solid black;
     margin: 50px;
