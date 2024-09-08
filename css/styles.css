@@ -1,6 +1,6 @@
 /* Coloring background of page and setting the font for all text on the page */
 body {
-    background-color: powderblue;
+    background-color: #A0C6FC;
     font-family: 'Comfortaa';
   }
 
@@ -78,4 +78,3 @@ body {
     padding: 20px;
     font-size: 30px;
   }
-
