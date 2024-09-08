@@ -85,9 +85,8 @@
 
   /* Using the 'contactme' class to style my contact section */
   .contactme {
-    position: absolute;
     bottom: -1500px;
-    width: 93%;
+    width: 100%;
     background-color: #184371;
     color: white;
     border: 2px solid black;
