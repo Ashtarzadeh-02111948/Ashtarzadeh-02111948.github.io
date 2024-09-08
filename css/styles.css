@@ -1,21 +1,24 @@
 /* Coloring background of page and setting the font for all text on the page */
-body {
-    background-color: #87ade2;
+  body {
     font-family: 'Comfortaa';
+    background: linear-gradient(#87ade2, rgb(248, 115, 179));
     padding-bottom: 400px;
   }
 
+
   /* Style for the top navigation bar on the site */
-.navbar {
+  .navbar {
     background-color: #a6285d;
     overflow: hidden;
-    /* Code to fix the position of the nav bar at the top even when scrolling down */
+    left:0%;
+    /* Code to lock the position of the nav bar at the top even when scrolling. Solution found online */
     position: fixed; 
     top: 0; 
-    width: 100%;
+    width: 1000%;
     z-index: 1000; 
   }
 
+  /* Style for the link in the navigation bar */
   .navbar a {
     float: left;
     color: #f2f2f2;
@@ -23,7 +26,6 @@ body {
     padding: 15px 15px;
     text-decoration: none;
     font-size: 30px;
-
   }
 
   /* Color the nav bar tab that is currently being hovered with the cursor */
@@ -32,11 +34,11 @@ body {
     color: black;
   }
 
-
-#validatecss {
+  /* Formatting the css validation icon */
+  #validatecss {
     padding: 50px;
     text-align: right;
-}
+  }
 
   /* Header for my name at top of page. Using negative value for margin top to adjust position of header higher*/
   h1 {
@@ -96,6 +98,7 @@ body {
     font-size: 30px;
   }
 
+  /* Formatting style of the links in my webpage that arent in navbar  */
   .sublinks {
     color: white;
     background-color: transparent;
