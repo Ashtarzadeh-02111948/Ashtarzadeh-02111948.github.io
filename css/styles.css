@@ -81,6 +81,7 @@ body {
     font-size: 30px;
   }
 
+  /* Using the 'contactme' class to style my contact section */
   .contactme {
     position: absolute;
     bottom: -1500px;
