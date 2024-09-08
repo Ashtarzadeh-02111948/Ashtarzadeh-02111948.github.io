@@ -2,9 +2,8 @@
   body {
     font-family: 'Comfortaa';
     background: linear-gradient(#87ade2, rgb(248, 115, 179));
-    padding-bottom: 400px;
+    padding-bottom: 200px;
   }
-
 
   /* Style for the top navigation bar on the site */
   .navbar {
@@ -95,7 +94,7 @@
     margin-right: 1px;
     padding: 20px;
     font-size: 30px;
-    
+
   }
 
   /* Formatting style of the links in my webpage that arent in navbar  */
