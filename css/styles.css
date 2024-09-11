@@ -10,7 +10,7 @@
     background-color: #a6285d;
     overflow: hidden;
     left:0%;
-    /* Code to lock the position of the nav bar at the top even when scrolling. Solution found online */
+    /* Code to lock the position of the nav bar at the top even when scrolling. Solution found online https://stackoverflow.com/   */
     position: fixed; 
     top: 0; 
     width: 1000%;
